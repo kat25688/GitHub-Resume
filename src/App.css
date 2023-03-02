@@ -1,0 +1,100 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+.textMid {
+  margin-top: 60px;
+}
+
+.image {
+  padding: 20px;
+  border-radius: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  margin: 10px;
+  width: 200px;
+}
+
+div {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  color: #b47180;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
+
+h4 {
+  color: #b47180;
+
+  font-size: 18px;
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+p {
+  color: grey;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+ul {
+  color: grey;
+
+  text-align: left;
+}
+
+div.nav {
+  justify-content: center;
+}
+
+.nav {
+  background-color: #b47180;
+  --bs-nav-link-hover-color: black;
+}
+
+a.nav-link {
+  color: white;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+td,
+tr {
+  text-align: left;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  display: block;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  background-color: rgba(180, 113, 128, 0.2);
+}
